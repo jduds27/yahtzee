@@ -1,15 +1,37 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    z-index: 900; 
+    left: -97px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Increase font size */
+    font-family: 'VT323', monospace;
+    font-weight: 500;
+    color: GhostWhite;
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#homepage {
+    text-align: center;
+    top: 5px;
+    background-color: DimGray;
+}
+
+#instructions {
+    text-align: center;
+    top: 65px;
+    background-color: DimGray;
+}
+
+#leaderboard {
+    text-align: center;
+    top: 145px;
+    background-color: DimGray;
+}
