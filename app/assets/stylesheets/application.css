@@ -1,23 +1,22 @@
 #mySidenav a {
-    position: absolute; /* Position them relative to the browser window */
+    position: absolute;
     z-index: 900; 
-    left: -97px; /* Position them outside of the screen */
-    transition: 0.3s; /* Add transition on hover */
-    padding: 15px; /* 15px padding */
-    width: 100px; /* Set a specific width */
-    text-decoration: none; /* Remove underline */
-    font-size: 16px; /* Increase font size */
+    left: -97px; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 16px; 
     font-family: 'VT323', monospace;
     font-weight: 500;
     color: GhostWhite;
-    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+    border-radius: 0 5px 5px 0;
 }
 
 #mySidenav a:hover {
-    left: 0; /* On mouse-over, make the elements appear as they should */
+    left: 0; 
 }
 
-/* The about link: 20px from the top with a green background */
 #homepage {
     text-align: center;
     top: 5px;
